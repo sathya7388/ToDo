@@ -24,7 +24,7 @@ export default function App() {
   return (
     <div>
       <ModalComponent data={selectedData} isOpen={isOpen} setIsOpen={setModalClose} />
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1, pt: 4, pl:8, pr:8, pb:4 }}>
         <Grid container spacing={2}>
           {data.map(x => {
             return <Grid item xs={6} md={4} lg={3}>
